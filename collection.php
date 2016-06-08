@@ -32,6 +32,7 @@ $colcnt = $stmt->columncount();
 //$total = $stmt->rowCount();
 //Set system time
 //print_r(getdate());
+//Function the bogeyman
 $now = time(); //Unix time stamp
 $current =date_create("$now[year]$now[month]$now[mday]$now[hour]$now[min]");
 $nowy =date("Y-m-d H:i",$now);
